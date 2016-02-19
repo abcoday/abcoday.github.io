@@ -43,3 +43,10 @@ kramdown:
   hard_wrap: false
 
 exclude: ['README.md', 'LICENSE','Gemfile', 'Gemfile.lock',]
+
+lsi: false
+safe: true
+source: .
+incremental: false
+gist:
+  noscript: false
