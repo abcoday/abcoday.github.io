@@ -17,3 +17,8 @@ After you will have to set up your `_config.yml`
 ## [Building-the-F8-2016-App-CN](https://github.com/pockry/Building-the-F8-2016-App-CN#rd)
 
 Facebook 在 F8 开发者大会上宣布他们用 React Native 开发了 F8 开发者大会的官方应用。他们不仅仅开发了应用(可从 App Store 和 Google Play 下载)，还设置了一个官方网站：http://makeitopen.com/ ，开源了官方应用的代码，并且还写了如何开发的教程。这将是开发者学习 React Native 非常好的教程，因此我们将其翻译为中文，提供给国内开发者。
+
+## [React/React Native 的ES5 ES6写法对照表](http://bbs.reactnative.cn/topic/15/react-react-native-%E7%9A%84es5-es6%E5%86%99%E6%B3%95%E5%AF%B9%E7%85%A7%E8%A1%A8/2)
+
+ES6参考资料 [http://es6.ruanyifeng.com/](http://es6.ruanyifeng.com/)
+
