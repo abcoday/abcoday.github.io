@@ -19,7 +19,7 @@ Collecting Data from the Modern Web
 Ryan Mitchell 
 
 Boston
-www.it-ebooks.info 
+ 
 
 
 Web Scraping with Python 
@@ -60,7 +60,7 @@ thereof complies with such licenses and/or rights.
 978-1-491-91027-6 
 [LSI] 
 
-www.it-ebooks.info 
+ 
 
 
 Table of Contents 
@@ -102,7 +102,7 @@ Crawling with Scrapy 45
 
 How APIs Work 50 
 
-www.it-ebooks.info 
+ 
 
 
 Common Conventions 50 
@@ -152,7 +152,7 @@ Cleaning in Code 109
 
 iv | Table of Contents 
 
-www.it-ebooks.info 
+ 
 
 
 Data Normalization 112 
@@ -202,7 +202,7 @@ Retrieving CAPTCHAs and Submitting Solutions 174
 
 Table of Contents | 
 
-www.it-ebooks.info 
+ 
 
 
 12. Avoiding Scraping Traps. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 177 
@@ -250,7 +250,7 @@ Index. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 vi | Table of Contents 
 
-www.it-ebooks.info 
+ 
 
 
 Preface 
@@ -283,7 +283,7 @@ These code samples are in the public domain, and can be used with or without
 attribution (although acknowledgment is always appreciated). All code samples also 
 will be available on the website for viewing and downloading. 
 
-www.it-ebooks.info 
+ 
 
 
 What Is Web Scraping? 
@@ -332,7 +332,7 @@ server to another. You can find an API for many different types of data you migh
 
 viii | Preface 
 
-www.it-ebooks.info 
+ 
 
 
 want to use such as Twitter posts or Wikipedia pages. In general, it is preferable to use 
@@ -381,7 +381,7 @@ with Python 3.x, which is used throughout this book. If you have only used Pytho
 
 Preface | ix 
 
-www.it-ebooks.info 
+ 
 
 
 If you’re looking for a more comprehensive Python resource, the book Introducing 
@@ -436,7 +436,7 @@ Shows commands or other text that should be typed by the user.
 
 x | Preface 
 
-www.it-ebooks.info 
+ 
 
 
 Constant width italic 
@@ -474,7 +474,7 @@ here, feel free to contact us at permissions@oreilly.com.
 
 Preface | xi 
 
-www.it-ebooks.info 
+ 
 
 
 Safari. Books Online 
@@ -527,7 +527,7 @@ Watch us on YouTube: http://www.youtube.com/oreillymedia
 
 xii | Preface 
 
-www.it-ebooks.info 
+ 
 
 
 Acknowledgments 
@@ -555,10 +555,10 @@ teenager.
 
 Preface | xiii 
 
-www.it-ebooks.info 
+ 
 
 
-www.it-ebooks.info 
+ 
 
 
 PART I 
@@ -589,10 +589,10 @@ part II. Don’t be fooled into thinking that this first section isn’t as impo
 of the more advanced projects in the second half. You will use nearly all the information 
 in the first half of this book on a daily basis while writing web scrapers. 
 
-www.it-ebooks.info 
+ 
 
 
-www.it-ebooks.info 
+ 
 
 
 CHAPTER 1 
@@ -628,7 +628,7 @@ browser, let’s use the following example. Alice owns a web server. Bob uses a 
 computer, which is trying to connect to Alice’s server. When one machine wants to 
 talk to another machine, something like the following exchange takes place: 
 
-www.it-ebooks.info 
+ 
 
 
 1. Bob’s computer sends along a stream of 1 and 0 bits, indicated by high and low 
@@ -680,7 +680,7 @@ You can save this code as scrapetest.py and run it in your terminal using the co
 
 4 | Chapter 1: Your First Web Scraper 
 
-www.it-ebooks.info 
+ 
 
 
 $python scrapetest.py 
@@ -737,7 +737,7 @@ with ease), we will be using it quite frequently throughout the book.
 
 Connecting | 
 
-www.it-ebooks.info 
+ 
 
 
 An Introduction to BeautifulSoup 
@@ -798,7 +798,7 @@ $pip3 install beautifulsoup4
 
 6 | Chapter 1: Your First Web Scraper 
 
-www.it-ebooks.info 
+ 
 
 
 Installing packages in Windows is nearly identical to the process for the Mac and 
@@ -864,7 +864,7 @@ for instance:
 
 An Introduction to BeautifulSoup | 
 
-www.it-ebooks.info 
+ 
 
 
 I can leave the environment with the deactivate command, after which I can no 
@@ -919,7 +919,7 @@ then transformed into a BeautifulSoup object, with the following structure:
 — div → <div>Lorem Ipsum dolor...</div> 
 8 | Chapter 1: Your First Web Scraper 
 
-www.it-ebooks.info 
+ 
 
 
 Note that the <h1> tag that we extracted from the page was nested two layers deep 
@@ -971,7 +971,7 @@ in the following way:
 
 An Introduction to BeautifulSoup | 
 
-www.it-ebooks.info 
+ 
 
 
 try: 
@@ -1055,7 +1055,7 @@ else:
 
 10 | Chapter 1: Your First Web Scraper 
 
-www.it-ebooks.info 
+ 
 
 
 if badContent == None: 
@@ -1133,10 +1133,10 @@ scrape the web.
 
 An Introduction to BeautifulSoup | 11 
 
-www.it-ebooks.info 
+ 
 
 
-www.it-ebooks.info 
+ 
 
 
 CHAPTER 2 
@@ -1176,7 +1176,7 @@ That doesn’t look so great. In addition to the aesthetics of the line, even th
 change to the website by a site administrator might break your web scraper altogether. 
 So what are your options? 
 
-www.it-ebooks.info 
+ 
 
 
 . Look for a “print this page” link, or perhaps a mobile version of the site that has 
@@ -1229,7 +1229,7 @@ www.pythonscraping.com/pages/warandpeace.html.
 
 14 | Chapter 2: Advanced HTML Parsing 
 
-www.it-ebooks.info 
+ 
 
 
 On this page, the lines spoken by characters in the story are in red, whereas the 
@@ -1286,7 +1286,7 @@ as long as possible.
 
 Another Serving of BeautifulSoup | 15 
 
-www.it-ebooks.info 
+ 
 
 
 find() and findAll() with BeautifulSoup 
@@ -1345,7 +1345,7 @@ in the section BeautifulSoup and regular expressions.
 
 16 | Chapter 2: Advanced HTML Parsing 
 
-www.it-ebooks.info 
+ 
 
 
 The limit argument, of course, is only used in the findAll method; find is equivalent 
@@ -1402,7 +1402,7 @@ a list of tags by attribute—by passing attributes to the function in a diction
 
 Another Serving of BeautifulSoup | 17 
 
-www.it-ebooks.info 
+ 
 
 
 Recall that passing a list of tags to .findAll() via the attributes list acts as an “or” 
@@ -1458,7 +1458,7 @@ page3.html as an example page for scraping (see Figure 2-1):
 18 
 | Chapter 2: Advanced HTML Parsing 
 
-www.it-ebooks.info 
+ 
 
 
 Figure 2-1. Screenshot from http://www.pythonscraping.com/pages/page3.html 
@@ -1482,7 +1482,7 @@ looks like:
 — td 
 Another Serving of BeautifulSoup | 19 
 
-www.it-ebooks.info 
+ 
 
 
 — span.excitingNote 
@@ -1534,7 +1534,7 @@ and descendants!
 
 20 | Chapter 2: Advanced HTML Parsing 
 
-www.it-ebooks.info 
+ 
 
 
 Dealing with siblings 
@@ -1591,7 +1591,7 @@ they return a single tag rather than a list of them.
 
 Another Serving of BeautifulSoup | 21 
 
-www.it-ebooks.info 
+ 
 
 
 Dealing with your parents 
@@ -1648,7 +1648,7 @@ large tables of random symbols, strung together to look like a lot of nonsense. 
 
 22 | Chapter 2: Advanced HTML Parsing 
 
-www.it-ebooks.info 
+ 
 
 
 tends to drive people away, and later they get out into the workforce and write needlessly 
@@ -1705,7 +1705,7 @@ strings.
 
 Regular Expressions | 23 
 
-www.it-ebooks.info 
+ 
 
 
 (cc)* 
@@ -1768,7 +1768,7 @@ the middle, and it must occur exactly once.
 
 24 | Chapter 2: Advanced HTML Parsing 
 
-www.it-ebooks.info 
+ 
 
 
 Rule 3 
@@ -1825,7 +1825,7 @@ aaabbbbb, abbbbbb
 
 Regular Expressions | 25 
 
-www.it-ebooks.info 
+ 
 
 
 [] Matches any character within the brackets (i.e., “Pick any one of these 
@@ -1887,7 +1887,7 @@ When in doubt, read the docs!
 
 26 | Chapter 2: Advanced HTML Parsing 
 
-www.it-ebooks.info 
+ 
 
 
 Regular Expressions and BeautifulSoup 
@@ -1955,7 +1955,7 @@ in .jpg, the output of which is the following:
 
 Regular Expressions and BeautifulSoup | 27 
 
-www.it-ebooks.info 
+ 
 
 
 A regular expression can be inserted as any argument in a BeautifulSoup expression, 
@@ -2012,7 +2012,7 @@ That is, it will find tags such as the following:
 
 28 | Chapter 2: Advanced HTML Parsing 
 
-www.it-ebooks.info 
+ 
 
 
 Using lambda functions in BeautifulSoup, selectors can act as a great substitute for 
@@ -2039,10 +2039,10 @@ convenient to use.
 
 Beyond BeautifulSoup | 29 
 
-www.it-ebooks.info 
+ 
 
 
-www.it-ebooks.info 
+ 
 
 
 CHAPTER 3 
@@ -2079,7 +2079,7 @@ to Kevin Bacon is only three subjects long.
 
 1 Thanks to The Oracle of Bacon for satisfying my curiosity about this particular chain. 
 
-www.it-ebooks.info 
+ 
 
 
 In this section, we’ll begin a project that will become a “Six Degrees of Wikipedia" solution 
@@ -2138,7 +2138,7 @@ Unfortunately, he had not spent much time up front trying to find patterns betwe
 
 32 | Chapter 3: Starting to Crawl 
 
-www.it-ebooks.info 
+ 
 
 
 the links that point to article pages (as opposed to other internal pages), they all have 
@@ -2180,7 +2180,7 @@ article link from the returned list, and calls getLinks again, until we stop the
 program or until there are no article links found on the new page. 
 Traversing a Single Domain | 33 
 
-www.it-ebooks.info 
+ 
 
 
 Here is the complete code that accomplishes this: 
@@ -2238,7 +2238,7 @@ this good don’t come cheap!
 
 34 | Chapter 3: Starting to Crawl 
 
-www.it-ebooks.info 
+ 
 
 
 Next, it defines the getLinks function, which takes in an article URL of the form / 
@@ -2284,7 +2284,7 @@ using a database, see Chapter 5.
 
 Crawling an Entire Site | 35 
 
-www.it-ebooks.info 
+ 
 
 
 The Dark and Deep Webs 
@@ -2334,7 +2334,7 @@ only data it found on article pages.
 
 36 | Chapter 3: Starting to Crawl 
 
-www.it-ebooks.info 
+ 
 
 
 The general approach to an exhaustive site crawl is to start with a top-level page (such 
@@ -2416,7 +2416,7 @@ a check is made to see if it is in the global set of pages (a set of pages that 
 
 Crawling an Entire Site | 37 
 
-www.it-ebooks.info 
+ 
 
 
 has encountered already). If not, it is added to the list, printed to the screen, and the 
@@ -2469,7 +2469,7 @@ page, or any other page) have titles under h1→span tags, and these are the onl
 h1 tags on the page. 
 38 | Chapter 3: Starting to Crawl 
 
-www.it-ebooks.info 
+ 
 
 
 . As mentioned before, all body text lives under the div#bodyContent tag. However, 
@@ -2540,7 +2540,7 @@ pages.
 
 Crawling an Entire Site | 39 
 
-www.it-ebooks.info 
+ 
 
 
 Different Patterns for Different Needs 
@@ -2584,7 +2584,7 @@ information we’re looking for and how we’re looking for it.
 
 40 | Chapter 3: Starting to Crawl 
 
-www.it-ebooks.info 
+ 
 
 
 Unknown Waters Ahead 
@@ -2648,7 +2648,7 @@ return internalLinks
 
 Crawling Across the Internet | 41 
 
-www.it-ebooks.info 
+ 
 
 
 #Retrieves a list of all external links found on a page 
@@ -2716,7 +2716,7 @@ Figure 3-1 visualizes the operation as a flowchart:
 
 42 | Chapter 3: Starting to Crawl 
 
-www.it-ebooks.info 
+ 
 
 
 Figure 3-1. Flowchart for script that crawls through different sites on the Internet 
@@ -2774,7 +2774,7 @@ getAllExternalLinks(link)
 
 Crawling Across the Internet | 43 
 
-www.it-ebooks.info 
+ 
 
 
 getAllExternalLinks("http://oreilly.com") 
@@ -2804,7 +2804,7 @@ redirects, which are performed using JavaScript or HTML, see Chapter 10.
 
 44 | Chapter 3: Starting to Crawl 
 
-www.it-ebooks.info 
+ 
 
 
 For server-side redirects, you usually don’t have to worry. If you’re using the urllib 
@@ -2855,7 +2855,7 @@ following file structure:
 — spiders 
 Crawling with Scrapy | 45 
 
-www.it-ebooks.info 
+ 
 
 
 — __init.py__ 
@@ -2929,7 +2929,7 @@ many types of content, you might have separate Scrapy items for each type (blog
 
 46 | Chapter 3: Starting to Crawl 
 
-www.it-ebooks.info 
+ 
 
 
 posts, press releases, articles, etc.), each with different fields, but all running under 
@@ -2995,7 +2995,7 @@ using Ctrl+C or by closing the terminal.
 
 Crawling with Scrapy | 47 
 
-www.it-ebooks.info 
+ 
 
 
 Logging with Scrapy 
@@ -3053,7 +3053,7 @@ here, there is likely a way (or several) to do it!
 
 48 | Chapter 3: Starting to Crawl 
 
-www.it-ebooks.info 
+ 
 
 
 CHAPTER 4 
@@ -3092,7 +3092,7 @@ to you. In an example later in this chapter, we will look at combining Wikipedia
 histories (which contain IP addresses) with an IP address resolver API in order to get 
 the geographic location of Wikipedia edits around the world. 
 
-www.it-ebooks.info 
+ 
 
 
 In this chapter, we’ll offer a general overview of APIs and how they work, look at a 
@@ -3143,7 +3143,7 @@ can learn more about it at http://freegeoip.net.
 
 50 | Chapter 4: Using APIs 
 
-www.it-ebooks.info 
+ 
 
 
 That being said, keep in mind that some APIs do deviate slightly from these rules, so 
@@ -3196,7 +3196,7 @@ it’s still good to know the difference, and you will often encounter PUT reque
 
 Common Conventions | 51 
 
-www.it-ebooks.info 
+ 
 
 
 Authentication 
@@ -3249,7 +3249,7 @@ Notation (JSON).
 
 52 | Chapter 4: Using APIs 
 
-www.it-ebooks.info 
+ 
 
 
 In recent years, JSON has become vastly more popular than XML for a couple of 
@@ -3308,7 +3308,7 @@ http://socialmediasite.com/api/v4/json/users/1234/posts?from=08012014&to=0831201
 
 Responses | 53 
 
-www.it-ebooks.info 
+ 
 
 
 Other APIs require that you pass the formatting and API version information in as a 
@@ -3370,7 +3370,7 @@ Which provides some of Monty Python’s hits, along with lesser-known recordings
 
 54 | Chapter 4: Using APIs 
 
-www.it-ebooks.info 
+ 
 
 
 (Part 2)"}, {"id": "SOQXAYQ1316771628E", "title": "Famous Person Quiz (The 
@@ -3427,7 +3427,7 @@ on the type of call. For instance, you can make up to 12 calls a minute to retri
 
 Twitter | 55 
 
-www.it-ebooks.info 
+ 
 
 
 basic information about Twitter users, but only one call a minute to retrieve lists of 
@@ -3455,7 +3455,7 @@ page containing further information (Figure 4-2):
 
 56 | Chapter 4: Using APIs 
 
-www.it-ebooks.info 
+ 
 
 
 Figure 4-2. You’ll need your secret key to use the Twitter API 
@@ -3483,7 +3483,7 @@ $python setup.py install
 
 Twitter | 57 
 
-www.it-ebooks.info 
+ 
 
 
 Twitter Credential Permissions 
@@ -3549,7 +3549,7 @@ een_name': None, 'id_str': '538956506478428160', 'in_reply_to_user_id: None,'lan
 
 58 | Chapter 4: Using APIs 
 
-www.it-ebooks.info 
+ 
 
 
 g': 'en', 'in_reply_to_user_id_str': None, 'user': {'profile_sidebar_border_colo 
@@ -3606,7 +3606,7 @@ found on GitHub.
 
 Twitter | 59 
 
-www.it-ebooks.info 
+ 
 
 
 Google APIs 
@@ -3644,7 +3644,7 @@ menu (Figure 4-3):
 
 60 | Chapter 4: Using APIs 
 
-www.it-ebooks.info 
+ 
 
 
 Figure 4-3. Google’s API Credentials page 
@@ -3674,7 +3674,7 @@ information.
 
 Google APIs | 61 
 
-www.it-ebooks.info 
+ 
 
 
 When trying these examples out on your own, remember to activate each needed API 
@@ -3733,7 +3733,7 @@ eId" : "America/New_York", "timeZoneName" : "Eastern Daylight Time" }
 
 62 | Chapter 4: Using APIs 
 
-www.it-ebooks.info 
+ 
 
 
 A Unix timestamp is required to make a request to the Time Zone API. This allows 
@@ -3803,7 +3803,7 @@ json at the top, and you’re all set! Unlike many languages that might parse JS
 
 Parsing JSON | 63 
 
-www.it-ebooks.info 
+ 
 
 
 a special JSON object or JSON node, Python uses a more flexible approach and turns 
@@ -3863,7 +3863,7 @@ their IP address is recorded, as shown in Figure 4-4.
 
 64 | Chapter 4: Using APIs 
 
-www.it-ebooks.info 
+ 
 
 
 Figure 4-4. The IP address of an anonymous editor on the revision history page for Wikipedia’s 
@@ -3885,7 +3885,7 @@ Figure 4-5. Visualization of Wikipedia edits created using Google’s Geochart l
 
 Bringing It All Back Home | 65 
 
-www.it-ebooks.info 
+ 
 
 
 Creating a basic script that crawls Wikipedia, looks for revision history pages, and 
@@ -3965,7 +3965,7 @@ and the new getHistoryIPs, which searches for the contents of all links with the
 
 66 | Chapter 4: Using APIs 
 
-www.it-ebooks.info 
+ 
 
 
 class mw-anonuserlink (indicating an anonymous user with an IP address, rather 
@@ -4020,7 +4020,7 @@ links = getLinks("/wiki/Python_(programming_language)")
 
 Bringing It All Back Home | 67 
 
-www.it-ebooks.info 
+ 
 
 
 while(len(links) > 0): 
@@ -4082,7 +4082,7 @@ the same continuum of data collection. In some sense, using a web API can even b
 
 68 | Chapter 4: Using APIs 
 
-www.it-ebooks.info 
+ 
 
 
 thought of as a subset of the subject of web scraping. After all, you are ultimately 
@@ -4091,10 +4091,10 @@ format, as you would do with any web scraper.
 
 More About APIs | 69 
 
-www.it-ebooks.info 
+ 
 
 
-www.it-ebooks.info 
+ 
 
 
 CHAPTER 5 
@@ -4131,7 +4131,7 @@ have to download files.
 . You save space on your own machine by storing only the URLs. 
 . It is easier to write code that only stores URLs and doesn’t need to deal with additional 
 file downloads. 
-www.it-ebooks.info 
+ 
 
 
 . You can lessen the load on the host server by avoiding large file downloads. 
@@ -4185,7 +4185,7 @@ from bs4 import BeautifulSoup
 
 72 | Chapter 5: Storing Data 
 
-www.it-ebooks.info 
+ 
 
 
 downloadDirectory = "downloaded" 
@@ -4245,7 +4245,7 @@ urlretrieve(fileUrl, getDownloadPath(baseUrl, fileUrl, downloadDirectory))
 
 Media Files | 73 
 
-www.it-ebooks.info 
+ 
 
 
 Run with Caution 
@@ -4301,7 +4301,7 @@ character, while columns within the row are separated by commas (hence the
 
 74 | Chapter 5: Storing Data 
 
-www.it-ebooks.info 
+ 
 
 
 separated value” files) use tabs or other characters to separate rows, but these file formats 
@@ -4374,7 +4374,7 @@ writer = csv.writer(csvFile)
 
 Storing Data to CSV | 75 
 
-www.it-ebooks.info 
+ 
 
 
 try: 
@@ -4421,7 +4421,7 @@ YouTube,1 Twitter,2 and Facebook,3 among many others.
 
 76 | Chapter 5: Storing Data 
 
-www.it-ebooks.info 
+ 
 
 
 Because of its ubiquity, price (“free” is a pretty great price), and out-of-box usability, it 
@@ -4474,7 +4474,7 @@ wizard (Figure 5-1):
 
 MySQL | 77 
 
-www.it-ebooks.info 
+ 
 
 
 Figure 5-1. The Mac OS X MySQL installer 
@@ -4506,7 +4506,7 @@ downloaded, it will guide you through the steps you’ll need to take (see Figur
 
 78 | Chapter 5: Storing Data 
 
-www.it-ebooks.info 
+ 
 
 
 Figure 5-2. The MySQL Windows Installer 
@@ -4534,7 +4534,7 @@ and databases in lowercase, although this standard is often ignored.
 
 MySQL | 79 
 
-www.it-ebooks.info 
+ 
 
 
 When you first log into MySQL, there are no databases to add data to. You can create 
@@ -4591,7 +4591,7 @@ time by using DESCRIBE:
 
 80 | Chapter 5: Storing Data 
 
-www.it-ebooks.info 
+ 
 
 
 > DESCRIBE pages; 
@@ -4657,7 +4657,7 @@ of data returned? Rather than selecting all, you can do something like this:
 
 MySQL | 81 
 
-www.it-ebooks.info 
+ 
 
 
 This returns just the id and title where the content contains the phrase “page content.” 
@@ -4725,7 +4725,7 @@ cur.execute("USE scraping")
 
 82 | Chapter 5: Storing Data 
 
-www.it-ebooks.info 
+ 
 
 
 cur.execute("SELECT * FROM pages WHERE id=1") 
@@ -4781,7 +4781,7 @@ code_ci.
 
 MySQL | 83 
 
-www.it-ebooks.info 
+ 
 
 
 You’ll know that you’re successful if you try inserting a few umlauts or Mandarin 
@@ -4852,7 +4852,7 @@ title and content, and adds them to an INSERT statement that is executed by the
 
 84 | Chapter 5: Storing Data 
 
-www.it-ebooks.info 
+ 
 
 
 cursor and then committed by the cursor’s connection. This is an excellent example 
@@ -4901,7 +4901,7 @@ database that you will often be querying against:
 
 MySQL | 85 
 
-www.it-ebooks.info 
+ 
 
 
 >SELECT * FROM dictionary WHERE definition="A small furry animal that says meow"; 
@@ -4954,7 +4954,7 @@ can shrink your dataset enormously:
 
 86 | Chapter 5: Storing Data 
 
-www.it-ebooks.info 
+ 
 
 
 >DESCRIBE phrases 
@@ -5017,7 +5017,7 @@ play here. In order to figure out how to best store this information, you need t
 
 MySQL | 87 
 
-www.it-ebooks.info 
+ 
 
 
 abstractly. A link is simply something that connects Page A to Page B. It could just as 
@@ -5108,7 +5108,7 @@ cur.execute("INSERT INTO pages (url) VALUES (%s)", (url))
 
 88 | Chapter 5: Storing Data 
 
-www.it-ebooks.info 
+ 
 
 
 conn.commit() 
@@ -5177,7 +5177,7 @@ directed graph problems .
 
 MySQL | 89 
 
-www.it-ebooks.info 
+ 
 
 
 Email 
@@ -5238,7 +5238,7 @@ from email.mime.text import MIMEText
 
 90 | Chapter 5: Storing Data 
 
-www.it-ebooks.info 
+ 
 
 
 from bs4 import BeautifulSoup 
@@ -5284,10 +5284,10 @@ your wall calendar can do.
 
 Email | 91 
 
-www.it-ebooks.info 
+ 
 
 
-www.it-ebooks.info 
+ 
 
 
 CHAPTER 6 
@@ -5326,7 +5326,7 @@ document’s file extension is usually all you need to know in order to read it 
 On a fundamental level, all documents are encoded in 0s and 1s. On top of that, there 
 are encoding algorithms that define things such as “how many bits per character” or 
 
-www.it-ebooks.info 
+ 
 
 
 “how many bits represent the color for each pixel” (in the case of image files). On top 
@@ -5380,7 +5380,7 @@ work just fine. However, dealing with text on the Internet can be a tricky busin
 
 94 | Chapter 6: Reading Documents 
 
-www.it-ebooks.info 
+ 
 
 
 Next we’ll cover the basics of English and foreign-language encoding, from ASCII to 
@@ -5430,7 +5430,7 @@ both worlds—14% larger files, and the lack of flexibility of only 128 characte
 
 Text | 95 
 
-www.it-ebooks.info 
+ 
 
 
 When UTF-8 was designed, the creators decided to use this “padding bit” in ASCII 
@@ -5484,7 +5484,7 @@ to gather these sorts of statistics.
 
 96 | Chapter 6: Reading Documents 
 
-www.it-ebooks.info 
+ 
 
 
 Encodings in action 
@@ -5537,7 +5537,7 @@ print(str(textPage.read(), 'utf-8'))
 
 Text | 97 
 
-www.it-ebooks.info 
+ 
 
 
 Using this concept in BeautifulSoup and Python 3.x looks like this: 
@@ -5593,7 +5593,7 @@ flavor of ISO.
 
 98 | Chapter 6: Reading Documents 
 
-www.it-ebooks.info 
+ 
 
 
 . Download the file locally by hand and point Python at the local file location 
@@ -5661,7 +5661,7 @@ your data in the real world. A lesser programmer might simply skip the first row
 
 CSV | 99 
 
-www.it-ebooks.info 
+ 
 
 
 the csvReader object, or write in some special case to handle it. Fortunately, there’s an 
@@ -5725,7 +5725,7 @@ under the United Kindom’s version of the Freedom of Information Act. After som
 
 100 | Chapter 6: Reading Documents 
 
-www.it-ebooks.info 
+ 
 
 
 repeated requests and denials, he finally received the information he was looking for 
@@ -5802,7 +5802,7 @@ outputString = readPDF(pdfFile)
 
 PDF | 101 
 
-www.it-ebooks.info 
+ 
 
 
 print(outputString) 
@@ -5860,7 +5860,7 @@ print(xml_content.decode('utf-8'))
 
 102 | Chapter 6: Reading Documents 
 
-www.it-ebooks.info 
+ 
 
 
 This reads a remote Word document as a binary file object (BytesIO is analogous to 
@@ -5902,7 +5902,7 @@ ce/word/2010/wordprocessingShape"><w:body><w:p w:rsidp="00764658" w:r
 
 Microsoft Word and .docx | 103 
 
-www.it-ebooks.info 
+ 
 
 
 sidr="00764658" w:rsidrdefault="00764658"><w:ppr><w:pstyle w:val="Tit 
@@ -5968,7 +5968,7 @@ error in the name of its own file format.
 
 104 | Chapter 6: Reading Documents 
 
-www.it-ebooks.info 
+ 
 
 
 The title of the document is preceded by the style descriptor tag <w:pstyle 
@@ -6003,10 +6003,10 @@ styles or label them in some other way.
 
 Microsoft Word and .docx | 105 
 
-www.it-ebooks.info 
+ 
 
 
-www.it-ebooks.info 
+ 
 
 
 PART II 
@@ -6031,10 +6031,10 @@ the Internet on a large scale. By the end of this section, you should have the t
 gather and manipulate nearly any type of data, in any form, across any part of the 
 Internet. 
 
-www.it-ebooks.info 
+ 
 
 
-www.it-ebooks.info 
+ 
 
 
 CHAPTER 7 
@@ -6079,7 +6079,7 @@ def ngrams(input, n):
 input = input.split(' ') 
 
 
-www.it-ebooks.info 
+ 
 
 
 output = [] 
@@ -6145,7 +6145,7 @@ are eliminated by encoding the content with UTF-8.
 
 110 | Chapter 7: Cleaning Your Dirty Data 
 
-www.it-ebooks.info 
+ 
 
 
 These steps greatly improve the output of the function, but there are still some issues: 
@@ -6213,7 +6213,7 @@ Python terminal:
 
 Cleaning in Code | 111 
 
-www.it-ebooks.info 
+ 
 
 
 By using item.strip(string.punctuation) inside a loop iterating through all words 
@@ -6272,7 +6272,7 @@ a new OrderedDict object, sorted by the value. The results:
 
 112 | Chapter 7: Cleaning Your Dirty Data 
 
-www.it-ebooks.info 
+ 
 
 
 ("['Software', 'Foundation']", 40), ("['Python', 'Software']", 38), ("['of', 'th 
@@ -6328,7 +6328,7 @@ script,” which can be an excellent solution. However, there are also third-par
 
 Cleaning After the Fact | 113 
 
-www.it-ebooks.info 
+ 
 
 
 such as OpenRefine, that are capable of not only cleaning data quickly and easily, but 
@@ -6370,7 +6370,7 @@ is inappropriate for programming inputs.
 
 114 | Chapter 7: Cleaning Your Dirty Data 
 
-www.it-ebooks.info 
+ 
 
 
 Figure 7-1. Data from Wikipedia’s “comparison of text editors” as shown in the main 
@@ -6398,7 +6398,7 @@ after 2005,” seen in Figure 7-3). They have built-in filtering tools. For inst
 
 Cleaning After the Fact | 115 
 
-www.it-ebooks.info 
+ 
 
 
 ing on a numeric value provides you with slide bars to select the value range that you 
@@ -6428,7 +6428,7 @@ if(value.length() != 4, "invalid", value)
 
 116 | Chapter 7: Cleaning Your Dirty Data 
 
-www.it-ebooks.info 
+ 
 
 
 When this function is applied to the “First stable release” column, it preserves the values 
@@ -6459,7 +6459,7 @@ one. This is usually sufficient to extract years from text or badly formatted da
 
 Cleaning After the Fact | 117 
 
-www.it-ebooks.info 
+ 
 
 
 also has the benefit of returning “null” for nonexistent dates. (GREL does not throw a 
@@ -6470,7 +6470,7 @@ guide to the language can be found on OpenRefine’s GitHub page.
 
 118 | Chapter 7: Cleaning Your Dirty Data 
 
-www.it-ebooks.info 
+ 
 
 
 CHAPTER 8 
@@ -6508,7 +6508,7 @@ at a mere 6%, according to http://w3techs.com/technologies/overview/content_lang
 knows? English’s hold on the majority of the Internet will almost certainly change in the future, and further 
 updates may be necessary in the next few years. 
 
-www.it-ebooks.info 
+ 
 
 
 For instance, the Shazam music service can identify audio as containing a certain 
@@ -6579,7 +6579,7 @@ for item in input:
 
 120 | Chapter 8: Reading and Writing Natural Languages 
 
-www.it-ebooks.info 
+ 
 
 
 item = item.strip(string.punctuation) 
@@ -6650,7 +6650,7 @@ commonWords = ["the", "be", "and", "of", "a", "in", "to", "have", "it",
 
 Summarizing Data | 121 
 
-www.it-ebooks.info 
+ 
 
 
 "out", "into", "just", "see", "him", "your", "come", "could", "now", 
@@ -6705,7 +6705,7 @@ to present to you a summary of the principles which will govern me in the discha
 of the duties which I shall be called upon to perform. 
 122 | Chapter 8: Reading and Writing Natural Languages 
 
-www.it-ebooks.info 
+ 
 
 
 . The presses in the necessary employment of the government should never be used 
@@ -6738,7 +6738,7 @@ chance of sun, and a 25% chance of clouds.
 
 Markov Models | 123 
 
-www.it-ebooks.info 
+ 
 
 
 Note: 
@@ -6804,7 +6804,7 @@ def buildWordDict(text):
 
 124 | Chapter 8: Reading and Writing Natural Languages 
 
-www.it-ebooks.info 
+ 
 
 
 #Remove newlines and quotes 
@@ -6888,7 +6888,7 @@ So what’s going on in the code?
 
 Markov Models | 125 
 
-www.it-ebooks.info 
+ 
 
 
 The function buildWordDict takes in the string of text, which was retrieved from the 
@@ -6943,7 +6943,7 @@ text might be something you need to account for.
 
 126 | Chapter 8: Reading and Writing Natural Languages 
 
-www.it-ebooks.info 
+ 
 
 
 by the word “football.” Although Kevin Bacon’s Wikipedia article links to the article 
@@ -7012,7 +7012,7 @@ return {}
 
 Markov Models | 127 
 
-www.it-ebooks.info 
+ 
 
 
 #The link tree may either be empty or contain multiple links 
@@ -7090,7 +7090,7 @@ the screen.
 in order to search the next level of links. 
 128 | Chapter 8: Reading and Writing Natural Languages 
 
-www.it-ebooks.info 
+ 
 
 
 The output for searching for a link between the page on Kevin Bacon (page ID 1, in 
@@ -7146,7 +7146,7 @@ line:
 
 Natural Language Toolkit | 129 
 
-www.it-ebooks.info 
+ 
 
 
 This opens the NLTK Downloader (Figure 8-2). 
@@ -7181,7 +7181,7 @@ text = Text(tokens)
 
 130 | Chapter 8: Reading and Writing Natural Languages 
 
-www.it-ebooks.info 
+ 
 
 
 The input for the word_tokenize function can be any Python text string. If you don’t 
@@ -7255,7 +7255,7 @@ Using this fact, we can see that there are 1,197 lines in the movie!
 
 Natural Language Toolkit | 131 
 
-www.it-ebooks.info 
+ 
 
 
 What we have called 2-grams in previous chapters NLTK refers to as bigrams (from 
@@ -7338,7 +7338,7 @@ or the context in which the words are used.
 
 132 | Chapter 8: Reading and Writing Natural Languages 
 
-www.it-ebooks.info 
+ 
 
 
 Although some people might be tempted to dismiss homonyms as rarely problematic, 
@@ -7381,7 +7381,7 @@ NNP Proper noun, singular
 NNPS Proper noun, plural 
 Natural Language Toolkit | 133 
 
-www.it-ebooks.info 
+ 
 
 
 PDT Predeterminer 
@@ -7445,7 +7445,7 @@ from the masses, not from some farcical aquatic ceremony.")
 
 134 | Chapter 8: Reading and Writing Natural Languages 
 
-www.it-ebooks.info 
+ 
 
 
 upreme', 'NNP'), ('executive', 'NN'), ('power', 'NN'), ('derives', 'N 
@@ -7502,7 +7502,7 @@ for instances of the company Google and don’t want to rely on people’s corre
 
 Natural Language Toolkit | 135 
 
-www.it-ebooks.info 
+ 
 
 
 capitalization in order to find those instances. Here, the pos_tag function can be 
@@ -7553,7 +7553,7 @@ with Python’s Natural Language Toolkit.
 
 136 | Chapter 8: Reading and Writing Natural Languages 
 
-www.it-ebooks.info 
+ 
 
 
 CHAPTER 9 
@@ -7589,7 +7589,7 @@ headers, and much more.
 
 Here’s what Requests creator Kenneth Reitz has to say about Python’s core tools: 
 
-www.it-ebooks.info 
+ 
 
 
 Python’s standard urllib2 module provides most of the HTTP capabilities you 
@@ -7641,7 +7641,7 @@ import and the instruction to print the content (yes, it’s that easy):
 
 138 | Chapter 9: Crawling Through Forms and Logins 
 
-www.it-ebooks.info 
+ 
 
 
 import requests 
@@ -7714,7 +7714,7 @@ actually make it onto O’Reilly’s mailing list, but the same concept could be
 
 Submitting a Basic Form | 139 
 
-www.it-ebooks.info 
+ 
 
 
 that form as well. However, I would request that you use your powers for good, and 
@@ -7766,7 +7766,7 @@ browser’s inspector or developer tool to view them.
 
 140 | Chapter 9: Crawling Through Forms and Logins 
 
-www.it-ebooks.info 
+ 
 
 
 Figure 9-1. The Form Data section, highlighted in a box, shows the POST parameters 
@@ -7805,7 +7805,7 @@ are used by the Python Requests library is also very similar:
 
 Submitting Files and Images | 141 
 
-www.it-ebooks.info 
+ 
 
 
 import requests 
@@ -7866,7 +7866,7 @@ Keeping track of cookies is easy with theRequests library:
 
 142 | Chapter 9: Crawling Through Forms and Logins 
 
-www.it-ebooks.info 
+ 
 
 
 import requests 
@@ -7939,7 +7939,7 @@ strangely!
 
 Handling Logins and Cookies | 143 
 
-www.it-ebooks.info 
+ 
 
 
 HTTP Basic Access Authentication 
@@ -7983,7 +7983,7 @@ on a blog. For this reason, there are often a number of security features that a
 
 144 | Chapter 9: Crawling Through Forms and Logins 
 
-www.it-ebooks.info 
+ 
 
 
 incorporated into HTML forms on modern websites that might not be immediately 
@@ -7998,10 +7998,10 @@ fields, and other security measures that websites take to protect their forms.
 
 Other Form Problems | 145 
 
-www.it-ebooks.info 
+ 
 
 
-www.it-ebooks.info 
+ 
 
 
 CHAPTER 10 
@@ -8041,7 +8041,7 @@ alert("This creates a pop-up using JavaScript");
 </script> 
 
 
-www.it-ebooks.info 
+ 
 
 
 A Brief Introduction to JavaScript 
@@ -8116,7 +8116,7 @@ function. The value of its function returns a function that prints increasingly 
 
 148 | Chapter 10: Scraping JavaScript 
 
-www.it-ebooks.info 
+ 
 
 
 values in the Fibonacci sequence. Each time it is called, it returns the Fibonacci-
@@ -8165,7 +8165,7 @@ of the statistics.
 
 A Brief Introduction to JavaScript | 149 
 
-www.it-ebooks.info 
+ 
 
 
 Google Analytics 
@@ -8225,7 +8225,7 @@ details/ta-googleanalytics/all/all).
 
 150 | Chapter 10: Scraping JavaScript 
 
-www.it-ebooks.info 
+ 
 
 
 addresses. One of the most common ways to denote a location in Google Maps is 
@@ -8287,7 +8287,7 @@ see in the source code you’re retrieving from the site. You might view the out
 
 Ajax and Dynamic HTML | 151 
 
-www.it-ebooks.info 
+ 
 
 
 your scraper and scratch your head, trying to figure out where everything you’re seeing 
@@ -8340,7 +8340,7 @@ created a sample page at http://pythonscraping.com/pages/javascript/ajaxDemo.htm
 
 152 | Chapter 10: Scraping JavaScript 
 
-www.it-ebooks.info 
+ 
 
 
 run our scrapers against. This page contains some sample text, hardcoded into the 
@@ -8398,7 +8398,7 @@ print(bsObj.find(id="content").get_text())
 
 Ajax and Dynamic HTML | 153 
 
-www.it-ebooks.info 
+ 
 
 
 This creates a new Selenium WebDriver, using the PhantomJS library, which tells the 
@@ -8463,7 +8463,7 @@ driver.close()
 
 154 | Chapter 10: Scraping JavaScript 
 
-www.it-ebooks.info 
+ 
 
 
 There are several new imports in this script, most notably WebDriverWait and 
@@ -8513,7 +8513,7 @@ The following locator selection strategies can used with the By object:
 
 Ajax and Dynamic HTML | 155 
 
-www.it-ebooks.info 
+ 
 
 
 ID 
@@ -8551,7 +8551,7 @@ to select matching elements.
 
 156 | Chapter 10: Scraping JavaScript 
 
-www.it-ebooks.info 
+ 
 
 
 XPath Syntax 
@@ -8607,7 +8607,7 @@ functions shown here, see Microsoft’s XPath syntax page.
 
 Ajax and Dynamic HTML | 157 
 
-www.it-ebooks.info 
+ 
 
 
 Handling Redirects 
@@ -8680,7 +8680,7 @@ print(driver.page_source)
 
 158 | Chapter 10: Scraping JavaScript 
 
-www.it-ebooks.info 
+ 
 
 
 This script checks the page every half second, with a timeout of 10 seconds, although 
@@ -8689,10 +8689,10 @@ as needed.
 
 Handling Redirects | 159 
 
-www.it-ebooks.info 
+ 
 
 
-www.it-ebooks.info 
+ 
 
 
 CHAPTER 11 
@@ -8731,7 +8731,7 @@ them or are built on top of them. This system of libraries can get fairly compli
 at times, so I recommend you read the next section before attempting any of the 
 exercises in this chapter. 
 
-www.it-ebooks.info 
+ 
 
 
 Overview of Libraries 
@@ -8777,7 +8777,7 @@ Pillow documentation.
 
 162 | Chapter 11: Image Processing and Text Recognition 
 
-www.it-ebooks.info 
+ 
 
 
 Tesseract 
@@ -8840,7 +8840,7 @@ Similarly, on Windows, you can use the following to use the environment variable
 
 Overview of Libraries | 163 
 
-www.it-ebooks.info 
+ 
 
 
 NumPy 
@@ -8891,7 +8891,7 @@ $tesseract text.tif textoutput | cat textoutput.txt
 
 164 | Chapter 11: Image Processing and Text Recognition 
 
-www.it-ebooks.info 
+ 
 
 
 The output is a line of information about the Tesseract library to indicate that it is 
@@ -8953,7 +8953,7 @@ subprocess.call(["tesseract", newFilePath, "output"])
 
 Processing Well-Formatted Text | 165 
 
-www.it-ebooks.info 
+ 
 
 
 #Open and read the resulting data file 
@@ -9008,7 +9008,7 @@ example.
 
 166 | Chapter 11: Image Processing and Text Recognition 
 
-www.it-ebooks.info 
+ 
 
 
 Although Amazon’s robots.txt file allows scraping of the site’s product pages, book 
@@ -9087,7 +9087,7 @@ editions!
 
 Processing Well-Formatted Text | 167 
 
-www.it-ebooks.info 
+ 
 
 
 image = page.get_attribute("src") 
@@ -9152,7 +9152,7 @@ extremely labor intensive for a process that was designed to be as human-free as
 
 168 | Chapter 11: Image Processing and Text Recognition 
 
-www.it-ebooks.info 
+ 
 
 
 The next section discusses another approach to solving the problem of mangled text, 
@@ -9191,7 +9191,7 @@ CAPTCHA images of varying difficulty. The default image looks like Figure 11-4.
 
 Reading CAPTCHAs and Training Tesseract | 169 
 
-www.it-ebooks.info 
+ 
 
 
 Figure 11-4. An example of the default text CAPTCHA for Drupal’s CAPTCHA project 
@@ -9226,7 +9226,7 @@ $tesseract captchaExample.png output
 
 170 | Chapter 11: Image Processing and Text Recognition 
 
-www.it-ebooks.info 
+ 
 
 
 we get this output.txt file: 
@@ -9283,7 +9283,7 @@ files, it’s handy to name the box files by the CAPTCHA solutions they represen
 
 Reading CAPTCHAs and Training Tesseract | 171 
 
-www.it-ebooks.info 
+ 
 
 
 text against the name of the file, and then again against the image file it is paired with 
@@ -9343,7 +9343,7 @@ it’s looking at. In most cases, you’ll probably want to use “eng” for En
 
 172 | Chapter 11: Image Processing and Text Recognition 
 
-www.it-ebooks.info 
+ 
 
 
 fontName 
@@ -9397,7 +9397,7 @@ character is one type or another.
 
 Reading CAPTCHAs and Training Tesseract | 173 
 
-www.it-ebooks.info 
+ 
 
 
 Finally, Tesseract renames each of the compiled data folders to be prepended by the 
@@ -9450,7 +9450,7 @@ like any other image.
 problem for bots, but queuing CAPTCHA solutions for later use, or other practi174 
 | Chapter 11: Image Processing and Text Recognition 
 
-www.it-ebooks.info 
+ 
 
 
 ces that may delay the time between when the CAPTCHA was requested, and 
@@ -9526,7 +9526,7 @@ params = {"captcha_token":captchaToken, "captcha_sid":captchaSid,
 
 Retrieving CAPTCHAs and Submitting Solutions | 175 
 
-www.it-ebooks.info 
+ 
 
 
 r = requests.post("http://www.pythonscraping.com/comment/reply/10", 
@@ -9569,7 +9569,7 @@ rate of .0000001%. Running a program three or four times rather than guessing
 
 176 | Chapter 11: Image Processing and Text Recognition 
 
-www.it-ebooks.info 
+ 
 
 
 CHAPTER 12 
@@ -9608,7 +9608,7 @@ chapter is, ethically, perhaps the most difficult one for me to write. My websit
 been plagued by bots, spammers, web scrapers, and all manner of unwanted virtual 
 guests, as perhaps yours have been. So why teach people how to build better bots? 
 
-www.it-ebooks.info 
+ 
 
 
 There are a few reasons why I believe this chapter is important to include: 
@@ -9651,7 +9651,7 @@ make your bot look more human.
 
 178 | Chapter 12: Avoiding Scraping Traps 
 
-www.it-ebooks.info 
+ 
 
 
 Adjust Your Headers 
@@ -9730,7 +9730,7 @@ following script:
 
 Looking Like a Human | 179 
 
-www.it-ebooks.info 
+ 
 
 
 import requests 
@@ -9786,7 +9786,7 @@ Safari/9537.53
 
 180 | Chapter 12: Avoiding Scraping Traps 
 
-www.it-ebooks.info 
+ 
 
 
 Handling Cookies 
@@ -9842,7 +9842,7 @@ False, 'domain': '.pythonscraping.com'}, {'value': '1', 'httponly': F
 
 Looking Like a Human | 181 
 
-www.it-ebooks.info 
+ 
 
 
 alse, 'name': 'has_js', 'path': '/', 'expiry': 1485878185, 'expires':
@@ -9915,7 +9915,7 @@ out by a few seconds, even if you have to add in an extra:
 
 182 | Chapter 12: Avoiding Scraping Traps 
 
-www.it-ebooks.info 
+ 
 
 
 time.sleep(3) 
@@ -9963,7 +9963,7 @@ behind the scenes.
 
 Common Form Security Features | 183 
 
-www.it-ebooks.info 
+ 
 
 
 Figure 12-1. The Facebook login form has quite a few hidden fieldu 
@@ -10003,7 +10003,7 @@ If the form is populated, there is likely a bot at work and the post will be dis
 
 184 | Chapter 12: Avoiding Scraping Traps 
 
-www.it-ebooks.info 
+ 
 
 
 This applies not only to forms but to links, images, files, and any other item on the 
@@ -10080,7 +10080,7 @@ between elements that are visually present on the page and those that aren’t.
 
 Common Form Security Features | 185 
 
-www.it-ebooks.info 
+ 
 
 
 Whether the element is present on the page can be determined by the is_dis 
@@ -10147,7 +10147,7 @@ inspector to view an actual POST command sent to the site to make sure you’ve
 got everything. 
 186 | Chapter 12: Avoiding Scraping Traps 
 
-www.it-ebooks.info 
+ 
 
 
 . If you are trying to log into a site and can’t make the login “stick,” or the website 
@@ -10183,10 +10183,10 @@ doing. Try emailing webmaster@<domain name> or admin@<domain name>
 for permission to use your scrapers. Admins are people, too! 
 The Human Checklist | 187 
 
-www.it-ebooks.info 
+ 
 
 
-www.it-ebooks.info 
+ 
 
 
 CHAPTER 13 
@@ -10224,7 +10224,7 @@ now. Having a suite of tests that can be run to ensure that your code performs a
 expected (at least, as far as you’ve written tests for) saves you time and worry and 
 makes releasing new updates easy. 
 
-www.it-ebooks.info 
+ 
 
 
 What Are Unit Tests? 
@@ -10272,7 +10272,7 @@ installations. Just import and extend unittest.TestCase, and it will do the foll
 . Provide several types of “assert” statements to allow tests to pass or fail 
 190 | Chapter 13: Testing Your Website with Scrapers 
 
-www.it-ebooks.info 
+ 
 
 
 . Run all functions that begin with test_ as unit tests, and ignore functions that 
@@ -10343,7 +10343,7 @@ self.assertIsNotNone(content)
 
 Python unittest | 191 
 
-www.it-ebooks.info 
+ 
 
 
 if __name__ == '__main__': 
@@ -10411,7 +10411,7 @@ return [pageTitle.lower(), urlTitle.lower()]
 
 192 | Chapter 13: Testing Your Website with Scrapers 
 
-www.it-ebooks.info 
+ 
 
 
 def contentExists(self): 
@@ -10478,7 +10478,7 @@ doing website testing. Fortunately, Selenium has an excellent framework in place
 
 Testing with Selenium | 193 
 
-www.it-ebooks.info 
+ 
 
 
 handling particularly complicated websites; in fact, the library was originally 
@@ -10531,7 +10531,7 @@ usernameField = driver.find_element_by_name('username')
 
 194 | Chapter 13: Testing Your Website with Scrapers 
 
-www.it-ebooks.info 
+ 
 
 
 Just as there are a number of actions you can take on various elements of a website in 
@@ -10603,7 +10603,7 @@ driver.close()
 
 Testing with Selenium | 195 
 
-www.it-ebooks.info 
+ 
 
 
 Method 1 calls send_keys on the two fields, then clicks the submit button, while 
@@ -10668,7 +10668,7 @@ You are definitely not a bot!
 
 196 | Chapter 13: Testing Your Website with Scrapers 
 
-www.it-ebooks.info 
+ 
 
 
 Of course, like the demo page suggests, dragging elements to prove you’re not a bot is 
@@ -10724,7 +10724,7 @@ from selenium.webdriver.remote.webelement import WebElement
 
 Unittest or Selenium? | 197 
 
-www.it-ebooks.info 
+ 
 
 
 from selenium.webdriver import ActionChains 
@@ -10772,7 +10772,7 @@ by-pixel basis what it should contain!
 
 198 | Chapter 13: Testing Your Website with Scrapers 
 
-www.it-ebooks.info 
+ 
 
 
 CHAPTER 14 
@@ -10809,7 +10809,7 @@ send emails from addresses you don’t own, automate mouse movement data from a
 command line, or even horrify web administrators by sending their website traffic 
 from Internet Explorer 5.0. 
 
-www.it-ebooks.info 
+ 
 
 
 The one thing that cannot be faked is your IP address. Anyone can send you a letter 
@@ -10862,7 +10862,7 @@ required, so we think of IP addresses are one thing that can’t be faked.
 
 200 | Chapter 14: Scraping Remotely 
 
-www.it-ebooks.info 
+ 
 
 
 Moreover, by offloading computationally intensive processing, you can free up your 
@@ -10906,7 +10906,7 @@ had only mixed success).
 
 Tor | 201 
 
-www.it-ebooks.info 
+ 
 
 
 Limitations of Tor Anonymity 
@@ -10958,7 +10958,7 @@ install it.
 
 202 | Chapter 14: Scraping Remotely 
 
-www.it-ebooks.info 
+ 
 
 
 Although not much in the way of documentation exists for this module, using it is 
@@ -11020,7 +11020,7 @@ to start and stop through a web interface.
 
 Remote Hosting | 203 
 
-www.it-ebooks.info 
+ 
 
 
 If your website is hosted on a Linux server, it likely already runs Python. If you’re 
@@ -11072,7 +11072,7 @@ Now, the ambitions of the applications have outpaced the development of the micr
 
 204 | Chapter 14: Scraping Remotely 
 
-www.it-ebooks.info 
+ 
 
 
 processor to such a degree that programmers are once again moving to pay-per-hour 
@@ -11119,7 +11119,7 @@ tools.
 
 Remote Hosting | 205 
 
-www.it-ebooks.info 
+ 
 
 
 Additional Resources 
@@ -11170,7 +11170,7 @@ images on Amazon, and Tesseract to use optical character recognition to read the
 
 206 | Chapter 14: Scraping Remotely 
 
-www.it-ebooks.info 
+ 
 
 
 In the “Six Degrees of Wikipedia” problem, I used regular expressions to write a 
@@ -11184,10 +11184,10 @@ interface.
 
 Moving Forward | 207 
 
-www.it-ebooks.info 
+ 
 
 
-www.it-ebooks.info 
+ 
 
 
 APPENDIX A 
@@ -11229,7 +11229,7 @@ Windows system path to the directory in which you install Python in order to tel
 operating system where it’s at, but the website and installers have fairly straightforward 
 instructions for doing so. 
 
-www.it-ebooks.info 
+ 
 
 
 For more complete information about installing and upgrading Python on all platforms, 
@@ -11289,7 +11289,7 @@ import this
 
 210 | Appendix A: Python at a Glance 
 
-www.it-ebooks.info 
+ 
 
 
 The output of which is: 
@@ -11327,10 +11327,10 @@ of Python, Guido van Rossum, is Dutch. No one seems to be entirely sure on this 
 
 Python at a Glance | 211 
 
-www.it-ebooks.info 
+ 
 
 
-www.it-ebooks.info 
+ 
 
 
 APPENDIX B 
@@ -11357,7 +11357,7 @@ Figure B-1 depicts a few common types of Internet transactions: a request for th
 location of a server at a particular domain name, the request of a web page and its 
 associated image file across two servers, and uploading an image file. 
 
-www.it-ebooks.info 
+ 
 
 
 Figure B-1. A few types of common Internet transactions between clients and servers 
@@ -11387,7 +11387,7 @@ fields you should be familiar with:
 
 214 | Appendix B: The Internet at a Glance 
 
-www.it-ebooks.info 
+ 
 
 
 Name Description Example 
@@ -11443,7 +11443,7 @@ article or longer piece of text.
 
 The Internet at a Glance | 215 
 
-www.it-ebooks.info 
+ 
 
 
 Analyzing Websites for Easy Scraping 
@@ -11495,7 +11495,7 @@ to start getting familiar with the syntax as well.
 
 216 | Appendix B: The Internet at a Glance 
 
-www.it-ebooks.info 
+ 
 
 
 APPENDIX C 
@@ -11534,7 +11534,7 @@ are less tangible than what we think of as “inventions,” keep in mind that i
 thing (or technique) that is patented—not the information contained in the patent. 
 Unless you are either building things from scraped blueprints, or someone patents a 
 
-www.it-ebooks.info 
+ 
 
 
 method of web scraping, you are unlikely to inadvertently infringe on a patent by 
@@ -11587,7 +11587,7 @@ blog-scraping project defensible, depending on how it functions.
 
 218 | Appendix C: The Legalities and Ethics of Web Scraping 
 
-www.it-ebooks.info 
+ 
 
 
 First, copyright protection extends to creative works only. It does not cover statistics 
@@ -11635,7 +11635,7 @@ does not allow you to access or use it.
 
 The Legalities and Ethics of Web Scraping | 219 
 
-www.it-ebooks.info 
+ 
 
 
 In this era of cloud computing, it’s tempting not to think of web servers as real, tangible, 
@@ -11690,7 +11690,7 @@ computer can place a heavy load on many websites, even crippling them or taking
 
 220 | Appendix C: The Legalities and Ethics of Web Scraping 
 
-www.it-ebooks.info 
+ 
 
 
 them down completely. Unless there’s a medical emergency and the only cure is 
@@ -11742,7 +11742,7 @@ world. For the first time, viruses and worms were seen as more than an inconveni
 
 The Legalities and Ethics of Web Scraping | 221 
 
-www.it-ebooks.info 
+ 
 
 
 monetary damages. In response, the Computer Fraud and Abuse Act was created in 
@@ -11791,7 +11791,7 @@ you’ve probably heard of the robots.txt file. If you go to just about any larg
 
 222 | Appendix C: The Legalities and Ethics of Web Scraping 
 
-www.it-ebooks.info 
+ 
 
 
 site and look for its robots.txt file, you will find it in the root web folder: http:// 
@@ -11841,7 +11841,7 @@ describe either a User-agent or a URL.
 
 The Legalities and Ethics of Web Scraping | 223 
 
-www.it-ebooks.info 
+ 
 
 
 If a rule follows a rule that it seems to contradict, the last rule takes precedence. For 
@@ -11904,7 +11904,7 @@ a few pages, such as the login page, search page, and “random article” page:
 
 224 | Appendix C: The Legalities and Ethics of Web Scraping 
 
-www.it-ebooks.info 
+ 
 
 
 # 
@@ -11958,7 +11958,7 @@ Web.
 
 The Legalities and Ethics of Web Scraping | 225 
 
-www.it-ebooks.info 
+ 
 
 
 Three Web Scrapers 
@@ -12009,7 +12009,7 @@ had to show two things:
 
 226 | Appendix C: The Legalities and Ethics of Web Scraping 
 
-www.it-ebooks.info 
+ 
 
 
 . Bidder’s Edge did not have permission to use eBay’s resources 
@@ -12059,7 +12059,7 @@ https://dcp2.att.com/OEPClient/openPage?ICCID=<idNumber>&IMEI=
 
 The Legalities and Ethics of Web Scraping | 227 
 
-www.it-ebooks.info 
+ 
 
 
 This page would contain a login form, with the email address of the user whose ID 
@@ -12113,7 +12113,7 @@ want to do without having a lawyer on speed dial. Even if it’s publicly availa
 
 228 | Appendix C: The Legalities and Ethics of Web Scraping 
 
-www.it-ebooks.info 
+ 
 
 
 “Would the average computer user be able to easily access this information if they 
@@ -12167,7 +12167,7 @@ should not be scraped.
 
 The Legalities and Ethics of Web Scraping | 229 
 
-www.it-ebooks.info 
+ 
 
 
 More importantly, the court found that the DMCS Safe Harbor provision allowed 
@@ -12178,7 +12178,7 @@ operated by or for the service provider.”
 
 230 | Appendix C: The Legalities and Ethics of Web Scraping 
 
-www.it-ebooks.info 
+ 
 
 
 Index 
@@ -12260,7 +12260,7 @@ children() function, 20
 descendants() function, 20 
 find() function, 16-18 
 
-www.it-ebooks.info 
+ 
 
 
 findAll() function, 15-18, 28 
@@ -12367,7 +12367,7 @@ DELETE method (HTTP), 51
 
 232 | Index 
 
-www.it-ebooks.info 
+ 
 
 
 DELETE statement, 82 
@@ -12477,7 +12477,7 @@ Google Analytics, 150, 181
 
 Index | 233 
 
-www.it-ebooks.info 
+ 
 
 
 Google Maps , 150 
@@ -12586,7 +12586,7 @@ lxml library, 29
 
 234 | Index 
 
-www.it-ebooks.info 
+ 
 
 
 M 
@@ -12695,7 +12695,7 @@ viewing form parameters, 140
 
 Index | 235 
 
-www.it-ebooks.info 
+ 
 
 
 previous_siblings() function, 21 
@@ -12804,7 +12804,7 @@ StaleElementReferenceException, 158
 
 236 | Index 
 
-www.it-ebooks.info 
+ 
 
 
 statistical analysis with NLTK, 130-132 
@@ -12928,7 +12928,7 @@ WebDriver, 153-155, 181
 
 Index | 237 
 
-www.it-ebooks.info 
+ 
 
 
 websites 
@@ -12962,7 +12962,7 @@ XPath (XML Path), 157
 
 238 | Index 
 
-www.it-ebooks.info 
+ 
 
 
 About the Author 
@@ -13010,6 +13010,6 @@ The cover image is from Lydekker’s Royal Natural History. The cover fonts are 
 Typewriter and Guardian Sans. The text font is Adobe Minion Pro; the heading font 
 is Adobe Myriad Condensed; and the code font is Dalton Maag’s Ubuntu Mono. 
 
-www.it-ebooks.info 
+ 
 
 
