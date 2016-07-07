@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "手机浏览器触摸事件"
-date: 2016-03-01 11:38:53 +0800
+date: 2016-03-01 12:38:53 +0800
 description: "关于click事件与touch事件冲突的问题 "
 category: 
 tags: []
@@ -31,5 +31,5 @@ switch(event.type) {
         break;
 }
 });
-{% endhighlight json %}
+{% endhighlight javascript %}
 
