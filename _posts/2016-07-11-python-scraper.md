@@ -97,11 +97,11 @@ tags: []
 
 > Selenium <http://www.seleniumhq.org/>
 
-    `pip install selenium`
+- `pip install selenium`
 
 > PhantomJS <http://phantomjs.org/download.html>
 
-    把安装包（exe） 存放在根目录下
+- 把安装包（exe） 存放在根目录下
 
 > 例子-1
 
@@ -199,4 +199,4 @@ tags: []
 
 > PySocks
 
-`pip install PySocks`
+- `pip install PySocks`
