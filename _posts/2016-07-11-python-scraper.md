@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "python 抓取"
-date: 2016-07-11 00:28:51 +0800
+date: 2016-07-11 00:39:51 +0800
 description: "python 抓取学习记录"
 category: 
 tags: []
@@ -10,24 +10,25 @@ tags: []
 ## 虚拟环境创建
 > `virtualenv`
 
-    [文档 http://virtualenv-chinese-docs.readthedocs.io/en/latest/](http://virtualenv-chinese-docs.readthedocs.io/en/latest/) 
-    
-    `pip install virtualenv` 安装工具
-    `virtualenv scrapingEnv` 创建虚拟环境
+- [文档 http://virtualenv-chinese-docs.readthedocs.io/en/latest/](http://virtualenv-chinese-docs.readthedocs.io/en/latest/)
+
+- `pip install virtualenv` 安装工具
+
+- `virtualenv scrapingEnv` 创建虚拟环境
 
 > `conda`
     
-    安装 <https://www.continuum.io/downloads#_windows>
+- 安装 <https://www.continuum.io/downloads#_windows>
 
-    包查询 <https://anaconda.org/>
+- 包查询 <https://anaconda.org/>
 
-    pip包查询 <https://pypi.python.org/pypi>
+- pip包查询 <https://pypi.python.org/pypi>
 
-    `conda create -n xxx bbb`  xxx 虚拟环境名称  bbb 安装的模块
+- `conda create -n xxx bbb`  xxx 虚拟环境名称  bbb 安装的模块
 
 > 启用和关闭虚拟环境
 
-    `activate xxx ` 开启   `deactivate` 关闭
+- `activate xxx ` 开启   `deactivate` 关闭
 
 ## Installing BeautifulSoup
 
@@ -137,7 +138,7 @@ tags: []
 
 > NumPy
 
-##Testing Your Website with Scrapers
+## Testing Your Website with Scrapers
 
 > 例子-1
 
