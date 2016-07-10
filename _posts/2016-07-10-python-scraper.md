@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "python 抓取"
-date: 2016-07-10 23:25:51 +0800
+date: 2016-07-11 00:25:51 +0800
 description: "python 抓取学习记录"
 category: 
 tags: []
@@ -17,6 +17,12 @@ tags: []
     `virtualenv scrapingEnv` 创建虚拟环境
 
 > `conda`
+    
+    安装 <https://www.continuum.io/downloads#_windows>
+
+    包查询 <https://anaconda.org/>
+
+    pip包查询 <https://pypi.python.org/pypi>
 
     `conda create -n xxx bbb`  xxx 虚拟环境名称  bbb 安装的模块
 
