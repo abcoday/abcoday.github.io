@@ -7,7 +7,6 @@ category:
 tags: []
 ---
 
-
 ## 虚拟环境创建
 > `virtualenv`
 
