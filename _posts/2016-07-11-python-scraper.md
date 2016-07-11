@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "python 抓取"
-date: 2016-07-11 00:39:51 +0800
+date: 2016-07-11 11:01:51 +0800
 description: "python 抓取学习记录"
 category: 
 tags: []
@@ -55,6 +55,26 @@ tags: []
     csvReader = csv.reader(dataFile)
     for row in csvReader:
         print(row)
+
+## Scrapy <http://doc.scrapy.org/en/latest/intro/tutorial.html>
+
+> 例子-1
+
+    import scrapy
+
+    class DmozSpider(scrapy.Spider):
+        name = "dmoz"
+        allowed_domains = ["dmoz.org"]
+        start_urls = [
+            "http://www.dmoz.org/Computers/Programming/Languages/Python/Books/",
+            "http://www.dmoz.org/Computers/Programming/Languages/Python/Resources/"
+        ]
+
+        def parse(self, response):
+            filename = response.url.split("/")[-2] + '.html'
+            with open(filename, 'wb') as f:
+                f.write(response.body)
+
 
 ## 自然语言 NLTK
 
