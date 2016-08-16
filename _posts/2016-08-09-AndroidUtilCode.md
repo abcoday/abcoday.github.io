@@ -2,7 +2,7 @@
 layout: post
 title: "Android 开发人员常用的代码片段"
 date: 2016-08-09 12:39:51 +0800
-description: "作者收集了很多 Android 开发人员常用的代码片段，包含了对设备信息、网络信息、界面 UI 等常用基本操作"
+description: "作者收集了很多 Android 开发人员常用的代码片段，包含了对设备信息、网络信息、界面 UI 等常用基本操作。"
 category: 
 tags: []
 ---
